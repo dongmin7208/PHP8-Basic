@@ -1,5 +1,5 @@
 <?php
-class Person{
+class Person2{
     public $name;
     public function __construct($name){
         $this->name = $name;
@@ -9,4 +9,4 @@ class Person{
        echo "name  : ".$this->name."です、";
     }
 }
-    $person1 = new Person("DonDon");    
+    $person1 = new Person2("DonDon");    
