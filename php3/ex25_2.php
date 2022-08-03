@@ -1,5 +1,5 @@
 <?php
-class Rectangle{
+class Rectangle4{
     public $width;
     public $height;
     public function getLength(){
@@ -11,7 +11,7 @@ class Rectangle{
 
 
 }
-    $rect1= new Rectangle();
+    $rect1= new Rectangle4();
     $rect1-> width = 20;
     $rect1-> height = 10;
 
