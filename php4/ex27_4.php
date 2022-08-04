@@ -1,8 +1,11 @@
 <?php
-    $str = "I love you!";
-    //cutStr = substr($str, 0, 5);
+    $str1 = "apple, banana, orange";
+    $str2 = 'dog cat rabbit';
+    echo ucfirst($str1)."<br>";
+    echo ucfirst($str2)."<br>";
 
-    for($i=1; $i<=strlen($str); $i++){
-        $cutStr = substr($str,0,$i);
-        echo $cutStr."<br>";
-    }
+    echo "-----------------<br>";
+
+    echo ucwords($str1)."<br>";
+    $str2 = ucwords($str2);
+    echo $str2."<br>";
